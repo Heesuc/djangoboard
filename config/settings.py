@@ -39,8 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'board'
+    'board',
+    #graphql
+    'graphene_django'
 ]
+
+#GRAPHENE = {
+#    "SCHEMA": "config.schema.schema"
+#}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

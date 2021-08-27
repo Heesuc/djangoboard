@@ -3,7 +3,6 @@ from django.shortcuts import redirect, render
 from board.models import Board
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from serializers import BoardSerializer
 
 def home(request):
     return render(request, 'home.html')
